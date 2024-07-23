@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set</title>
+    <style>
+        .para{
+            color: red;
+
+        }
+        .newPara{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p class="para">This is a para.</p>
+
+    <script>
+        // 1st Question
+
+        /*
+        let btn = document.createElement("button");
+        btn.innerText="click me";
+        btn.style.backgroundColor="red";
+        btn.style.color="#fff";
+        document.querySelector("body").prepend(btn);
+        */
+
+        // 2nd Question
+
+        let para = document.querySelector("p");
+
+        // para.setAttribute("class","newPara");
+
+        // append a new class in element
+
+        para.classList.add("newPara");
+
+        // remove class in element
+
+        // para.classList.remove("para");
+        // para.classList.remove("newPara");
+
+
+
+
+    </script>
+</body>
+</html>
